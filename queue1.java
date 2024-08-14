@@ -1,4 +1,4 @@
-public class queue1{
+public class Queue1{
     static class Queue{
         static int arr[];
         static int size;
@@ -17,7 +17,7 @@ public class queue1{
 
         //add
         public static void add(int n){
-            if(isEmpty){
+            if(isEmpty()){
                 System.out.println("EMPTY");
             }
             rear++;
