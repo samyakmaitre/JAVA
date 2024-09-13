@@ -7,13 +7,14 @@ public class java28{
     }
 
     public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
         while (1>0) {
-            Scanner sc = new Scanner(System.in);
-        System.out.println("Enter three number: ");
-        float a = sc.nextFloat();
-        float b = sc.nextFloat();
-        float c = sc.nextFloat();
-        avg(a, b, c);
+            System.out.println("Enter three number: ");
+            float a = sc.nextFloat();
+            float b = sc.nextFloat();
+            float c = sc.nextFloat();
+            avg(a, b, c);
         }
+        sc.close(sc);        
     }
 }

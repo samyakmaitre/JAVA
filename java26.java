@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Java26 {
+public class java26 {
     // Method to check if a number is prime
     public static boolean isPrime(int n) {
         if (n <= 1) {

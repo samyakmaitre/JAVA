@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class java29{
     public static boolean isEven(int x){

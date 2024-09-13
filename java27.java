@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class java27{
     public static void BinToDec(int n){

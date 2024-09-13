@@ -26,7 +26,7 @@ class Solution{
             i++;
 
             int denom = 0;
-            while(i<n && Character.isDigit(expression.))
+            while(i<n && Character.isDigit(expression));
         }
     }
 }
